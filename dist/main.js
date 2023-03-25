@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const ksuid = __webpack_require__(/*! ksuid */ \"./node_modules/ksuid/index.js\");\n\nfunction generateKSUID() {\n    const ksuidValue = ksuid.randomSync().toString();\n    document.getElementById(\"ksuid\").innerHTML = ksuidValue;\n}\n\ndocument.getElementById(\"generateButton\").addEventListener(\"click\", generateKSUID);\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("const ksuid = __webpack_require__(/*! ksuid */ \"./node_modules/ksuid/index.js\");\n\nfunction generateKSUID() {\n    const ksuidValue = ksuid.randomSync().string;\n    document.getElementById(\"ksuid\").innerHTML = ksuidValue;\n}\n\ndocument.getElementById(\"generateButton\").addEventListener(\"click\", generateKSUID);\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
