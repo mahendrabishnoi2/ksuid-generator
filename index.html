@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>KSUID Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <div class="container">
-		<h1>KSUID Generator</h1>
-		<button class="btn" id="generateButton">Generate KSUID</button>
-		<p class="ksuid" id="ksuid"></p>
-	</div>
+        <h1>KSUID Generator</h1>
+        <button class="btn" id="generateButton">Generate KSUID</button>
+        <div class="ksuid-container hide">
+            <p class="ksuid" id="ksuid"></p>
+            <button id="copyBtn" class="hide">Copy to clipboard</button>
+        </div>
+    </div>
     <script src="dist/main.js"></script>
 </body>
+
 </html>

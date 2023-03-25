@@ -38,4 +38,40 @@ h1 {
     font-size: 2rem;
     margin-top: 2rem;
     transition: opacity 0.2s ease-in-out;
+    word-break: break-all;
+    color: #666;
+}
+
+.ksuid-container {
+    margin: 50px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+#copyBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copyBtn:hover {
+    background-color: #1976D2;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
